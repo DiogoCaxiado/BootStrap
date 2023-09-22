@@ -58,6 +58,7 @@
 .d-flex {
     padding: 20px;
     margin: 0 !important;
+    height: 100px;
     
     background-color: #EDEDED;
 }
