@@ -1,0 +1,49 @@
+#form-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: calc(100vh - 175px);
+}
+
+#form-area h2 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0;
+
+    color: #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 600px;
+    height: 310px;
+
+    border: 1px solid #EDEDED;
+    background-color: #FFF;
+}
+
+.form-control {
+    width: 546px;
+    margin: 15px 0;
+}
+
+.checkbox-area {
+    display: flex;
+    padding: 0 24px;
+    width: 100%;
+}
+
+.button-area {
+    display: flex;
+    justify-content: end;
+    padding: 0 24px;
+    
+    width: 100%;
+}
